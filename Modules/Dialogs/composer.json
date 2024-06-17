@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/dialogs",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Dialogs\\": "app/",
+            "Modules\\Dialogs\\Database\\Factories\\": "database/factories/",
+            "Modules\\Dialogs\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Dialogs\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "ErrorHandler": true,
+    "Admin": true,
+    "Roles": true,
+    "Campaigns": true,
+    "Dialogs": true
+}

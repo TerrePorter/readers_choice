@@ -1,0 +1,11 @@
+{
+    "name": "Dialogs",
+    "alias": "dialogs",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Dialogs\\Providers\\DialogsServiceProvider"
+    ],
+    "files": []
+}

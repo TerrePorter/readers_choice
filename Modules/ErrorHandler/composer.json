@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/errorhandler",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\ErrorHandler\\": "app/",
+            "Modules\\ErrorHandler\\Database\\Factories\\": "database/factories/",
+            "Modules\\ErrorHandler\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\ErrorHandler\\Tests\\": "tests/"
+        }
+    }
+}

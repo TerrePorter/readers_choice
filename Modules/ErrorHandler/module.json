@@ -1,0 +1,11 @@
+{
+    "name": "ErrorHandler",
+    "alias": "errorhandler",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ErrorHandler\\Providers\\ErrorHandlerServiceProvider"
+    ],
+    "files": []
+}
